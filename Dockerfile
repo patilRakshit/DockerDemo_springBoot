@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-COPY  ./target/SimpleRestApi*.jar usr/data/dockerdemo
+COPY  ./target/DockerDemo_springBoot*.jar usr/data/dockerdemo
 
 WORKDIR /usr/data
 
